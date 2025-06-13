@@ -10,6 +10,10 @@ public class LoginAction extends ActionSupport {
 		return SUCCESS;
 	}
 
+	public String getUsername() {
+		return username;
+	}
+
 	public void setUsername(String username) {
 		this.username = username;
 	}
