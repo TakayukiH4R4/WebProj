@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 
 <!DOCTYPE html>
 <html>
@@ -20,8 +19,7 @@
 		<br>
 		お問い合わせ内容:
 		<s:textarea name="body"/>
-		<br>
-		<s: submit value="登録"/>
+		<br><s:submit value="登録"/>
 	</s:form>
 </body>
 </html>
